@@ -1,6 +1,5 @@
 import {
   Box,
-  Button,
   Center,
   CircularProgress,
   Container,
@@ -8,7 +7,6 @@ import {
   Grid,
   GridItem,
   Heading,
-  Icon,
   IconButton,
   Image,
   Spacer,
@@ -71,7 +69,7 @@ export default function CurrentWeather() {
     <Center>
       <VStack>
         <Heading>Current Weather</Heading>
-        <Box borderWidth="2px" borderRadius="xl" boxShadow="xl" boxSize="sm">
+        <Box borderWidth="2px" borderRadius="xl" boxSize="sm">
           <Flex style={{ margin: 8 }}>
             <Text fontSize="lg">{`Last Updated at ${new Date(lastUpdated).toLocaleTimeString()}`}</Text>
             <Spacer />

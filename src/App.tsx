@@ -26,7 +26,9 @@ export const App = () => (
     <Center>
       <VStack>
         <CurrentWeather />
-        <DailyForecast />
+        <div style={{ width: "100%" }}>
+          <DailyForecast />
+        </div>
       </VStack>
     </Center>
   </ChakraProvider>
